@@ -13,9 +13,6 @@ import tensorflow as tf
 import time
 import importlib 
 import subprocess
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
-tf.enable_eager_execution()
 
 import models.model_voxception as model
 from models.entropy_model import EntropyBottleneck
